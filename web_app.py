@@ -12,11 +12,11 @@ with st.sidebar:
     option = "About"
     st.markdown(f"<h3 style='text-align: center;'>{option}</h3>", unsafe_allow_html=True)
     st.markdown('''
-    Nouf Akhlaq Ahmed Bamne envisions Crop-Forecast ML Pro as a groundbreaking tool that leverages advanced AI and machine learning algorithms to provide farmers with precise crop yield predictions. This tool is designed to assist farmers in making informed decisions, optimizing resource usage, and ultimately enhancing agricultural productivity.
+    Nouf Bamne envisions Crop-Forecast ML Pro as a groundbreaking tool that leverages advanced AI and machine learning algorithms to provide farmers with precise crop yield predictions. This tool is designed to assist farmers in making informed decisions, optimizing resource usage, and ultimately enhancing agricultural productivity.
 
     💡 Let's harness the power of AI to boost agricultural productivity and support our farmers!
     ''')
-    st.write('Developed with passion by Nouf Akhlaq Ahmed Bamne.')
+    st.write('Developed with passion by Nouf Bamne.')
 
 
 
