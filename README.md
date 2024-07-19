@@ -1,7 +1,7 @@
 # Nouf-CropForecastML-Chatbot
-# CropYieldPredictor
+# CropForecastML
 
-*CropYieldPredictor* is a machine learning project designed to predict agricultural crop yields using advanced predictive analytics. The goal is to provide accurate forecasts based on historical data, helping farmers and agricultural professionals make informed decisions and optimize their farming practices.
+*CropForecastML* is a machine learning project designed to predict agricultural crop yields using advanced predictive analytics. The goal is to provide accurate forecasts based on historical data, helping farmers and agricultural professionals make informed decisions and optimize their farming practices.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -11,7 +11,6 @@
 - [Data](#data)
 - [Models](#models)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 This project leverages machine learning techniques to predict crop yields. By analyzing historical agricultural data, the system generates forecasts that can assist in planning and improving agricultural productivity. The project includes data preprocessing, model training, and evaluation.
@@ -26,48 +25,41 @@ This project leverages machine learning techniques to predict crop yields. By an
 1. *Clone the repository:*
    bash
    git clone https://github.com/yourusername/CropYieldPredictor.git
-   cd CropYieldPredictor
-   
+   cd CropForecastML
 
-2. *Create a virtual environment (optional but recommended):*
-   bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-   
-
-3. *Install the required packages:*
+2. *Install the required packages:*
    bash
    pip install -r requirements.txt
+   The required packages that you should mention in your project README file are the dependencies needed to run your project. These may include:
+
+1. Programming languages (e.g., Python, Java, Node.js)
+2. Libraries (e.g., NumPy, pandas, React)
+3. Frameworks (e.g., Django, Flask, Express.js)
+4. Databases (e.g., MySQL, MongoDB, PostgreSQL)
+5. Testing frameworks (e.g., JUnit, PyUnit, Jest)
+6. Build tools (e.g., Webpack, Gulp, Maven)
+7. Version control systems (e.g., Git, SVN)
+8. Operating system dependencies (e.g., Linux, Windows, macOS)
+9. Other software dependencies (e.g., graphics drivers, external libraries)
    
 
 ## Usage
-1. *Prepare your data:*
-   Ensure your dataset is in the correct format and place it in the data/ directory.
-
-2. *Run the data preprocessing script:*
-   bash
-   python preprocess.py
+Start the application by running:
    
+    ```bash
+       streamlit run WEB APP.py
 
-3. *Train the model:*
-   bash
-   python train.py
+   Input Features
+    Year: Year for which crop yield prediction is required.
+    Average Rainfall (mm per year): Annual average rainfall in millimeters.
+    Pesticides (tonnes): Quantity of pesticides used in tonnes.
+    Average Temperature (°C): Average temperature in degrees Celsius.
+    Area: Select the geographic area from the provided options.
+    Item: Choose the type of crop from the available options.
+
+   Example
+   After launching the Streamlit app, input the required features and click "Predict" to view the predicted Crop yield.
    
-
-4. *Evaluate the model:*
-   bash
-   python evaluate.py
-   
-
-5. *Make predictions:*
-   bash
-   python predict.py --input data/sample_input.csv
-   
-
-## Data
-- *Source:* [Link to dataset source, if applicable]
-- *Format:* [Describe the format of the data, e.g., CSV, JSON]
-- *Features:* [List of features used in the dataset]
 
 ## Models
 The prediction model used is a Decision Tree Regressor trained on historical crop yield data. The dtr (1).pkl file contains the model parameters and is loaded during runtime to predict crop yields based on user inputs..
