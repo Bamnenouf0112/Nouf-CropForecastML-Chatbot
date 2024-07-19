@@ -7,16 +7,16 @@ import requests
 #------------------------------------------------------
 
 with st.sidebar:
-    st.title('''Sadia's Crop-Forecast ML Pro 🤖''')
+    st.title('''Nouf's Crop-Forecast ML Pro 🤖''')
     st.markdown("------------------")
     option = "About"
     st.markdown(f"<h3 style='text-align: center;'>{option}</h3>", unsafe_allow_html=True)
     st.markdown('''
-    Sadia Ansar Husain Sakharkar envisions Crop-Forecast ML Pro as a groundbreaking tool that leverages advanced AI and machine learning algorithms to provide farmers with precise crop yield predictions. This tool is designed to assist farmers in making informed decisions, optimizing resource usage, and ultimately enhancing agricultural productivity.
+    Nouf Akhlaq Ahmed Bamne envisions Crop-Forecast ML Pro as a groundbreaking tool that leverages advanced AI and machine learning algorithms to provide farmers with precise crop yield predictions. This tool is designed to assist farmers in making informed decisions, optimizing resource usage, and ultimately enhancing agricultural productivity.
 
     💡 Let's harness the power of AI to boost agricultural productivity and support our farmers!
     ''')
-    st.write('Developed with passion by Sadia Ansar Husain Sakharkar')
+    st.write('Developed with passion by Nouf Akhlaq Ahmed Bamne.')
 
 
 
@@ -44,7 +44,7 @@ Area_Encoder = {
     'Lithuania': 55, 'Madagascar': 56, 'Malawi': 57, 'Malaysia': 58, 'Mali': 59, 'Mauritania': 60, 'Mauritius': 61, 'Mexico': 62,
     'Mex': 63
 }
-loettir_2 = lottie("https://assets6.lottiefiles.com/packages/lf20_BgywoUBeiL.json")
+loettir_2 = lottie("https://assets10.lottiefiles.com/packages/lf20_7fCbvNSmFD.json")
 Item_Encoder = {
     'Maize': 0, 'Potatoes': 1, 'Rice, paddy': 2, 'Sorghum': 3, 'Soybeans': 4, 'Wheat': 5, 'Cassava': 6, 'Sweet potatoes': 7,
     'Plantains and others': 8, 'Yams': 9
