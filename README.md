@@ -24,7 +24,7 @@ This project leverages machine learning techniques to predict crop yields. By an
 ## Installation
 1. *Clone the repository:*
    bash
-   git clone https://github.com/yourusername/CropYieldPredictor.git
+   git clone https://github.com/Bamnenouf0112/Nouf-CropForecastML-Chatbot.git
    cd CropForecastML
 
 2. *Install the required packages:*
